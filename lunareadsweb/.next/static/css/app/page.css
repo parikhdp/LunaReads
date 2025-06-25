@@ -1,0 +1,67 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_c1__2r0Xc {
+  background: url('https://m.media-amazon.com/images/G/01/kfw/landing/img_sky_bg2x._CB630820936_.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  position: relative;
+  justify-content: space-between;
+}
+
+
+.page_c11__hvl0d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  gap: 20px;
+
+}
+
+
+
+.page_logo__7fc9l {
+  height: 50px;
+  object-fit: contain;
+  /* background-color: aqua; */
+
+}
+.page_t1__ptpRh {
+  color: white;
+}
+
+.page_btnRow__X_MwF {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+.page_btn1__9MF4U {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.page_btn2__lGKko {
+  background-color: #ffe19c;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.page_bottomimg__SLYO1 {
+
+  z-index: 1;
+  height: 60vh;
+  object-fit: contain;
+}

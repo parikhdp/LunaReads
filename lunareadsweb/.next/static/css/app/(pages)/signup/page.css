@@ -1,0 +1,89 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(pages)/signup/signup.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.signup_createAccountContainer__yGaXt {
+    width: 300px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.signup_logo__hglaS {
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.signup_createAccountContainer__yGaXt h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup_createAccountContainer__yGaXt form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup_createAccountContainer__yGaXt label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.signup_createAccountContainer__yGaXt input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup_createAccountContainer__yGaXt .signup_passwordInfo__f7_WB {
+    font-size: 12px;
+    color: #555;
+}
+
+.signup_createAccountButton__LXD0L {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup_createAccountButton__LXD0L:hover {
+    background-color: #e7b33c;
+}
+
+.signup_agreement__omut0 {
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.signup_agreement__omut0 a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signup_agreement__omut0 a:hover {
+    text-decoration: underline;
+}
+
+.signup_signin__iH9jB {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.signup_signin__iH9jB a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.signup_signin__iH9jB a:hover {
+    text-decoration: underline;
+}
