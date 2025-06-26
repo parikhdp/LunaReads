@@ -1,0 +1,165 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Navbar.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar__fk_p7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.Navbar_left__j7Fro {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_logo__UM0Ax {
+    font-size: 20px;
+    color: #0073e6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.Navbar_searchBox__91qxZ {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.Navbar_searchIcon__FQDDc {
+    margin-right: 5px;
+    color: #555;
+}
+
+
+.Navbar_searchInput__QPoA9 {
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+
+.Navbar_right__LMSvC {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_menuItem__7PhH_ {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+  
+.Navbar_menuItem__7PhH_:last-child {
+    margin-right: 0;
+  }
+  
+  .Navbar_filterIcon__qigxh,
+  .Navbar_sortIcon__ZaT0y,
+  .Navbar_viewIcon__AnXE_,
+  .Navbar_cartIcon__hpigX,
+  .Navbar_moreIcon__BLJwv {
+    margin-right: 5px;
+  }
+
+
+  .Navbar_menuText__9LBKh {
+    color: #555;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(pages)/(afterAuth)/book/[BookId]/Book.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.Book_main__YuM86 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.Book_container__XswgY {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.Book_imageContainer__LpWYC {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50vh;
+    overflow: hidden;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+s .Book_bookImage__HijQC {
+    width: auto;
+    height: 100%;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+}
+
+.Book_details__abLoO {
+    flex: 2 1;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Book_bookTitle__96Tdj {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Book_bookAuthor__bMHzQ {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.Book_bookDescription__lyu9a {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Book_bookPrice__88ipF {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.Book_purchaseButton__SbcG0 {
+    padding: 15px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: min-content;
+    text-wrap: nowrap;
+}
+
+.Book_purchaseButton__SbcG0:hover {
+    background-color: #e68a00;
+}

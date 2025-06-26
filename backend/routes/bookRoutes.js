@@ -17,7 +17,7 @@ const upload = multer({ storage: storage });
 
 router.post('/create', upload.single('pdf') , async (req, res)=>{
     const { image, title, author, description, price, amazonLink } = req.body;
-  const pdf = req.file.path;
+  const pdf = req.file ? req.file.path : null;
 
   try {
     const newBook = new Book({

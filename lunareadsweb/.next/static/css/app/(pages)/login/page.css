@@ -1,101 +1,102 @@
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(pages)/login/login.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(pages)/login/Login.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************/
-.login_signInContainer__8b7P_ {
-    width: 300px;
-    margin: 10px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
+.Login_signInContainer__zgrsi {
+  width: 300px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.login_signInContainer__8b7P_ .login_logo__yUqte {
-    margin-bottom: 20px;
-    object-fit: contain;
+.Login_signInContainer__zgrsi .Login_logo__gXXtP {
+  margin-bottom: 20px;
+  object-fit: contain;
 }
 
-.login_signInContainer__8b7P_ h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-
-.login_signInContainer__8b7P_ form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.login_signInContainer__8b7P_ label {
-    font-weight: bold;
-    margin-top: 10px;
+.Login_signInContainer__zgrsi h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 
-.login_signInContainer__8b7P_ .login_fp__UyJWV {
-    font-weight: normal;
-    font-size: 12px;
-    color: #0066c0;
-    text-decoration: none;
-    float: right;
+.Login_signInContainer__zgrsi form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.login_signInContainer__8b7P_ input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.Login_signInContainer__zgrsi label {
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-  
-.login_signInButton__en8uM {
-    width: 100%;
-    padding: 10px;
-    background-color: #f0c14b;
-    border: 1px solid #a88734;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .login_signInButton__en8uM:hover {
-    background-color: #e7b33c;
-  }
-  .login_agreement__0bZXk {
-    font-size: 12px;
-    color: #555;
-    margin-top: 20px;
-  }
-  
-  .login_agreement__0bZXk a {
-    color: #0066c0;
-    text-decoration: none;
-  }
 
-  .login_agreement__0bZXk a:hover {
-    text-decoration: underline;
-  }
+.Login_signInContainer__zgrsi .Login_fp__GDveB {
+  font-weight: normal;
+  font-size: 12px;
+  color: #0066c0;
+  text-decoration: none;
+  float: right;
+}
 
-  .login_terms__xgLRM {
-    font-size: 12px;
-    color: #555;
-    margin-top: 20px;
-  }
-  
+.Login_signInContainer__zgrsi input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
 
-  .login_createAccount__4wU82 {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  
-  .login_createAccount__4wU82 a {
-    color: #0066c0;
-    text-decoration: none;
-  }
-  
-  .login_createAccount__4wU82 a:hover {
-    text-decoration: underline;
-  }
+
+.Login_signInButton__vm9eF {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Login_signInButton__vm9eF:hover {
+  background-color: #e7b33c;
+}
+
+.Login_agreement__d__by {
+  font-size: 12px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.Login_agreement__d__by a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.Login_agreement__d__by a:hover {
+  text-decoration: underline;
+}
+
+.Login_terms__1siCc {
+  font-size: 12px;
+  color: #555;
+  margin-top: 20px;
+}
+
+
+.Login_createAccount__38szv {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Login_createAccount__38szv a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.Login_createAccount__38szv a:hover {
+  text-decoration: underline;
+}

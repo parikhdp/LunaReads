@@ -1,0 +1,214 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/Navbar.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar__fk_p7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.Navbar_left__j7Fro {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_logo__UM0Ax {
+    font-size: 20px;
+    color: #0073e6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.Navbar_searchBox__91qxZ {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.Navbar_searchIcon__FQDDc {
+    margin-right: 5px;
+    color: #555;
+}
+
+
+.Navbar_searchInput__QPoA9 {
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+
+.Navbar_right__LMSvC {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_menuItem__7PhH_ {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+  
+.Navbar_menuItem__7PhH_:last-child {
+    margin-right: 0;
+  }
+  
+  .Navbar_filterIcon__qigxh,
+  .Navbar_sortIcon__ZaT0y,
+  .Navbar_viewIcon__AnXE_,
+  .Navbar_cartIcon__hpigX,
+  .Navbar_moreIcon__BLJwv {
+    margin-right: 5px;
+  }
+
+
+  .Navbar_menuText__9LBKh {
+    color: #555;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/(pages)/(afterAuth)/library/library.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.library_main__wp140 {
+    width: 100%;
+    height: 100vh;
+}
+
+.library_row__BFh9I {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.library_row__BFh9I .library_left__3h_iL {
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.library_row__BFh9I .library_left__3h_iL .library_menuMain__UHYtz {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_menuMain__UHYtz:hover {
+    background-color: #e0e0e0;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_bookicon__LD1YY,
+.library_row__BFh9I .library_left__3h_iL .library_bookicon2__eqldn {
+    font-size: 24px;
+    color: #0073e6;
+    margin-right: 10px;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_bookicon2__eqldn {
+    color: #555;
+}
+
+
+.library_row__BFh9I .library_left__3h_iL .library_menuMain__UHYtz p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_menuMain__UHYtz .library_toRight__Utkoi {
+    position: absolute;
+    right: 10px;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_menuItems__V1Sla {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_menuItems__V1Sla span {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.library_row__BFh9I .library_left__3h_iL .library_menuItems__V1Sla span:hover {
+    color: #0073e6;
+}
+
+
+.library_right__sNPwU {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.library_right__sNPwU h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.library_books__85zDj {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.library_bookItem__R4_6g {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    aspect-ratio: 9 / 16;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.library_bookImage__ghzoW {
+    width: 100%;
+    height: auto;
+    flex: 1 1;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.library_bookDetails__U052r {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.library_bookTitle__NMqUh {
+    font-size: 16px;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.library_bookAuthor__p4DW3 {
+    font-size: 14px;
+    color: #555;
+}

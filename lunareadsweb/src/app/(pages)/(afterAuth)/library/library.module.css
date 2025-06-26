@@ -27,6 +27,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .row .left .menuMain:hover {
     background-color: #e0e0e0;
 }
@@ -52,12 +53,14 @@
     position: absolute;
     right: 10px;
 }
+
 .row .left .menuItems {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
     gap: 20px;
 }
+
 .row .left .menuItems span {
     padding: 5px 0;
     font-size: 14px;
@@ -104,6 +107,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .bookImage {
     width: 100%;
     height: auto;
